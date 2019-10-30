@@ -3,31 +3,31 @@ entries:
   datavision-dashboard:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-10-21T18:16:58.938850191+05:30"
+    created: "2019-10-30T12:02:55.084733554+05:30"
     description: A Helm chart for Kubernetes
     digest: 622b9fabcf0685f68d200b2a0b2e27e576020944c2ca29d2ba6150e2fb90d658
     name: datavision-dashboard
     urls:
-    - https://github.com/prashant8689/datavision-k8s-helm-test-repo/datavision-dashboard-0.1.0.tgz
+    - https://raw.githubusercontent.com/prashant8689/datavision-k8s-helm-test-repo/ch-pages/datavision-dashboard-0.1.0.tgz
     version: 0.1.0
   datavision-db:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-10-21T18:16:58.939224738+05:30"
+    created: "2019-10-30T12:02:55.085033279+05:30"
     description: A Helm chart for Kubernetes
     digest: cc87e2e0a4f99b74941839b72488e9324ac1fc8de0e8dfa103e2f1d18d0c5bd7
     name: datavision-db
     urls:
-    - https://github.com/prashant8689/datavision-k8s-helm-test-repo/datavision-db-0.1.0.tgz
+    - https://raw.githubusercontent.com/prashant8689/datavision-k8s-helm-test-repo/ch-pages/datavision-db-0.1.0.tgz
     version: 0.1.0
   datavision-prom:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-10-21T18:16:58.939527278+05:30"
+    created: "2019-10-30T12:02:55.085355287+05:30"
     description: A Helm chart for Kubernetes
     digest: 15962275b34b183bf05390e6f241b5a5995681d2d20d792999b51d1081c8cf7d
     name: datavision-prom
     urls:
-    - https://github.com/prashant8689/datavision-k8s-helm-test-repo/datavision-prom-0.1.0.tgz
+    - https://raw.githubusercontent.com/prashant8689/datavision-k8s-helm-test-repo/ch-pages/datavision-prom-0.1.0.tgz
     version: 0.1.0
-generated: "2019-10-21T18:16:58.938020562+05:30"
+generated: "2019-10-30T12:02:55.084176979+05:30"
