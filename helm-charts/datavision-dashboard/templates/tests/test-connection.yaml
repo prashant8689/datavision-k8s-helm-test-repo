@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: "{{ include "datavision-dashboard.fullname" . }}-test-connection"
+  labels:
+{{ include "datavision-dashboard.labels" . | indent 4 }}
+  annotations:
+    "helm.sh/hook": test-success
+spec:
+  containers:
+    - name: wget
+      image: busybox
+      command: ['wget']
+      args:  ['{{ include "datavision-dashboard.fullname" . }}:{{ .Values.service.port }}']
+  restartPolicy: Never
