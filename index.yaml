@@ -3,7 +3,7 @@ entries:
   datavision-dashboard:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-11-13T11:18:55.712138492+05:30"
+    created: "2019-11-13T12:30:24.924990717+05:30"
     description: A Helm chart for datavision-dashboard
     digest: b93240bbc9ee8d7d7103892eb0fd4d81b449915c2515fba44f32b13a63e23c74
     name: datavision-dashboard
@@ -13,7 +13,7 @@ entries:
   datavision-db:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-11-13T11:18:55.712699425+05:30"
+    created: "2019-11-13T12:30:24.964849361+05:30"
     description: A Helm chart for datavision-db
     digest: 3e83c98f608f2cdcb0274ceb1ec079002ed604cb18fe37594125c1f62d48037c
     name: datavision-db
@@ -23,7 +23,7 @@ entries:
   datavision-exporter:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-11-13T11:18:55.713436427+05:30"
+    created: "2019-11-13T12:30:24.990750929+05:30"
     description: A Helm chart for datavision-exporter
     digest: e98a52ab34dfddc7775e37a87da97ca085275156caf8690b0c6ff2db5f975904
     name: datavision-exporter
@@ -33,11 +33,11 @@ entries:
   datavision-prom:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-11-13T11:18:55.713997597+05:30"
+    created: "2019-11-13T12:30:24.991358712+05:30"
     description: A Helm chart for datavision-prom
-    digest: e430c9ceb860db10539185c0be3e8eede6d24af717fd67ac8611b6c2eb396018
+    digest: 8bb1a846f6e82995eec701974c033f1956b5438b5acd9d3645e8f0089e243042
     name: datavision-prom
     urls:
     - https://raw.githubusercontent.com/prashant8689/datavision-k8s-helm-test-repo/ch-pages/datavision-prom-0.1.0.tgz
     version: 0.1.0
-generated: "2019-11-13T11:18:55.700949703+05:30"
+generated: "2019-11-13T12:30:24.915460158+05:30"
