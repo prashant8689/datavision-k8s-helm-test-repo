@@ -5,16 +5,17 @@ metadata:
   labels:
 {{ include "datavision-exporter.labels" . | indent 4 }}
 spec:
-  type: ClusterIP
+  type: {{ .Values.servicegcp.type }}
   ports:
-  - name: {{ .Values.servicegcp }}
-    port: {{ .Values.servicegcp.port }}
-    protocol: TCP
-    targetPort: {{ .Values.servicegcp.targetPort }}
-  - name: {{ .Values.servicestorage }}
-    port: {{ .Values.servicestorage.port }}
-    protocol: TCP
-    targetPort: {{ .Values.servicestorage.targetPort }}
+    - port: {{ .Values.servicegcp.port }}
+      targetPort: http
+      protocol: TCP
+      name: http
+  ports:
+    - port: {{ .Values.servicestorage.port }}
+      targetPort: http
+      protocol: TCP
+      name: http
   selector:
     app.kubernetes.io/name: {{ include "datavision-exporter.name" . }}
     app.kubernetes.io/instance: {{ .Release.Name }}
