@@ -13,9 +13,13 @@ imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
 
-service:
+servicegcp:
   type: ClusterIP
   port: 9701
+
+servicestorage:
+  type: ClusterIP
+  port: 9702
 
 serviceAccount:
   # Specifies whether a service account should be created
