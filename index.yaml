@@ -2,8 +2,17 @@ apiVersion: v1
 entries:
   datavision-dashboard:
   - apiVersion: v1
+    appVersion: "2.0"
+    created: "2019-12-27T15:15:53.438386081+05:30"
+    description: A Helm chart for datavision-dashboard
+    digest: 4d0b6b84cff819dacbebf7ec552a378be5ee44dcccc31cb4979db09ed5eab1a3
+    name: datavision-dashboard
+    urls:
+    - https://raw.githubusercontent.com/prashant8689/datavision-k8s-helm-test-repo/ch-pages/datavision-dashboard-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-11-15T15:51:06.324597044+05:30"
+    created: "2019-12-27T15:15:53.429553832+05:30"
     description: A Helm chart for datavision-dashboard
     digest: b93240bbc9ee8d7d7103892eb0fd4d81b449915c2515fba44f32b13a63e23c74
     name: datavision-dashboard
@@ -13,7 +22,7 @@ entries:
   datavision-db:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-11-15T15:51:06.331123708+05:30"
+    created: "2019-12-27T15:15:53.475700117+05:30"
     description: A Helm chart for datavision-db
     digest: 3e83c98f608f2cdcb0274ceb1ec079002ed604cb18fe37594125c1f62d48037c
     name: datavision-db
@@ -23,7 +32,7 @@ entries:
   datavision-exporter:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-11-15T15:51:06.331706509+05:30"
+    created: "2019-12-27T15:15:53.486686644+05:30"
     description: A Helm chart for datavision-exporter
     digest: de7685709c86b6e91ece1458281c2d44c3030c6b636bb89afcf3641b4b889f7f
     name: datavision-exporter
@@ -33,11 +42,11 @@ entries:
   datavision-prom:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-11-15T15:51:06.345522214+05:30"
+    created: "2019-12-27T15:15:53.491178226+05:30"
     description: A Helm chart for datavision-prom
     digest: 8bb1a846f6e82995eec701974c033f1956b5438b5acd9d3645e8f0089e243042
     name: datavision-prom
     urls:
     - https://raw.githubusercontent.com/prashant8689/datavision-k8s-helm-test-repo/ch-pages/datavision-prom-0.1.0.tgz
     version: 0.1.0
-generated: "2019-11-15T15:51:06.305123194+05:30"
+generated: "2019-12-27T15:15:53.422493869+05:30"
